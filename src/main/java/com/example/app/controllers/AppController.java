@@ -17,7 +17,7 @@ import com.example.app.entities.User;
 import com.example.app.services.AppService;
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = {"http://localhost:5173", "https://reactloginapp1.netlify.app"})
+@CrossOrigin(origins = {"http://localhost:5173", "https://reactloginapp1.netlify.app"},allowCredentials = "true")
 
 public class AppController {
 
